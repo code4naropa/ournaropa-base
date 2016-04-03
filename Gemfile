@@ -33,6 +33,8 @@ gem 'ournaropa_library', :git => "git@github.com:code4naropa/ournaropa-library.g
   # Calendar Component
 gem 'ournaropa_calendar', :git => "git@github.com:code4naropa/ournaropa-calendar.git"
 
+gem 'execjs'
+
 # capitrano deployment
 group :development do
     gem 'capistrano',         require: false
