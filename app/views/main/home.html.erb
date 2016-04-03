@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <h1 class="center-align">OurNaropa</h1>
+    <div class="divider"></div>
+  </div>
+  
+  <div class="row">
+    <div class="col s4 center-align">
+      <i class="material-icons medium">search</i>
+      <h5>Library Search</h5>
+      <p>Search Naropa's libraries, CU's libraries, and the Boulder Public Library all at once.</p>
+      <%= link_to library_search_path, :class => "waves-effect waves-light btn-large" do %>
+        Go
+      <% end %>
+    </div>
+    <div class="col s4 center-align">
+      <i class="material-icons medium">today</i>
+      <h5>Unity Calendar</h5>
+      <p>Discover what's happening at Naropa, add your events, and share with friends.</p>
+      <%= link_to calendar_path, :class => "waves-effect waves-light btn-large" do %>
+        Go
+      <% end %>
+    </div>
+    <div class="col s4 center-align">
+      <i class="material-icons medium">inbox</i>
+      <h5>Course Planner</h5>
+      <p>Plan your classes for next semester with the visual Course Planner.</p>
+        <a class="waves-effect waves-light btn-large disabled">Coming Soon</a>
+    </div>
+  </div>
+  
+</div>

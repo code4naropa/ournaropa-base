@@ -4,9 +4,11 @@ Rails.application.routes.draw do
 
   
   #
-  mount OurnaropaLibrary::Engine, at: "/library"
+  mount OurnaropaLibrary::Engine, at: "/library", as: :library_search
   
-  mount OurnaropaCalendar::Engine, at: "/calendar"
+  mount OurnaropaCalendar::Engine, at: "/calendar", as: :calendar
+  
+  root 'main#home'
   
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

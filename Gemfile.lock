@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: git@github.com:code4naropa/ournaropa-library.git
-  revision: 49499a2bdfa676b5412989370c8260cb788232e1
+  revision: b1f326fa948752e4c1413101166046be35a40fb1
   specs:
-    ournaropa_library (0.0.1)
+    ournaropa_library (0.0.3)
       material_icons
       materialize-sass
       nokogiri
@@ -71,7 +71,7 @@ GEM
     capistrano-figaro-yml (1.0.2)
       capistrano (~> 3.1)
       sshkit (~> 1.2, >= 1.2.0)
-    capistrano-rails (1.1.5)
+    capistrano-rails (1.1.6)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
     capistrano-rvm (0.1.2)
@@ -121,7 +121,7 @@ GEM
     multi_json (1.11.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
-    net-ssh (3.0.2)
+    net-ssh (3.1.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     pg (0.18.4)
@@ -174,7 +174,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sshkit (1.8.1)
+    sshkit (1.9.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     thor (0.19.1)
