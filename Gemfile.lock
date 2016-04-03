@@ -1,5 +1,6 @@
-PATH
-  remote: ../ournaropa_calendar
+GIT
+  remote: git@github.com:code4naropa/ournaropa-calendar.git
+  revision: 4fc11b17423336a2994e997dd647760fbb0547b4
   specs:
     ournaropa_calendar (0.0.1)
       chronic
@@ -7,8 +8,9 @@ PATH
       materialize-sass
       rails (~> 4.2.4)
 
-PATH
-  remote: ../ournaropa_library
+GIT
+  remote: git@github.com:code4naropa/ournaropa-library.git
+  revision: 49499a2bdfa676b5412989370c8260cb788232e1
   specs:
     ournaropa_library (0.0.1)
       material_icons
