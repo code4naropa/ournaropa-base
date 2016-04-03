@@ -9,8 +9,8 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
-#initializer :assets do |config|
-#  Rails.application.config.assets.paths << root.join("app", "assets", "images", #"ournaropa_library")
+initializer :assets do |config|
+  Rails.application.config.assets.paths << root.join("app", "assets", "images", "ournaropa_library")
 #end
 #Rails.application.config.assets.precompile += %w( ournaropa_calendar/*)
 Rails.application.config.assets.precompile += %w( ournaropa_library/naropa-icon.jpeg )
