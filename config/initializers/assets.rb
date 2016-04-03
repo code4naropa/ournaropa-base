@@ -13,3 +13,6 @@ Rails.application.config.assets.version = '1.0'
 #  Rails.application.config.assets.paths << root.join("app", "assets", "images", #"ournaropa_library")
 #end
 #Rails.application.config.assets.precompile += %w( ournaropa_calendar/*)
+Rails.application.config.assets.precompile += %w( ournaropa_library/naropa-icon.jpeg )
+Rails.application.config.assets.precompile += %w( ournaropa_library/cu-icon.jpeg )
+Rails.application.config.assets.precompile += %w( ournaropa_library/bpl-icon.jpeg )
