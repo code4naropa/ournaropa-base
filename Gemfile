@@ -27,13 +27,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'figaro'
 
 
-group :production do
   # Library Component
-  gem 'ournaropa_library', path: "git@github.com:code4naropa/ournaropa-library.git"
+gem 'ournaropa_library', path: "git@github.com:code4naropa/ournaropa-library.git"
 
-  # Calendar Component
-  gem 'ournaropa_calendar', path: "https://github.com/code4naropa/ournaropa-calendar"
-end
+# Calendar Component
+gem 'ournaropa_calendar', path: "https://github.com/code4naropa/ournaropa-calendar"
 
 # capitrano deployment
 group :development do
@@ -42,11 +40,6 @@ group :development do
     gem 'capistrano-rails',   require: false
     gem 'capistrano-bundler', require: false
     gem 'capistrano3-puma',   require: false
-      # Library Component
-    gem 'ournaropa_library', path: "../ournaropa_library"
-
-    # Calendar Component
-    gem 'ournaropa_calendar', path: "../ournaropa_calendar"
 end
 
 # run on puma
