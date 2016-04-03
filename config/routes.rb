@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   #
   mount OurnaropaLibrary::Engine, at: "/library"
   
+  mount OurnaropaCalendar::Engine, at: "/calendar"
+  
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

@@ -39,6 +39,8 @@ Rails.application.configure do
   # Execute multiple actions simulatenously
   config.middleware.delete Rack::Lock
   
+  #config.assets.paths << "#{Gem.loaded_specs['ournaropa_library'].full_gem_path}/app/assets/stylesheets"
+  
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end
