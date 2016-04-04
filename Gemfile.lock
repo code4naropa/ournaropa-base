@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: https://github.com/code4naropa/ournaropa-library.git
-  revision: 324168794d342fc8f6189a6748ca78120affca14
+  revision: a9cd9c7eff38b20c1721f356bfe111a8b9598d3c
   specs:
-    ournaropa_library (0.1.0)
+    ournaropa_library (1.0.1)
       material_icons
       materialize-sass
       nokogiri
