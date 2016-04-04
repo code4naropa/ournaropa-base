@@ -5,8 +5,23 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
+
+ <nav>
+  <div class="nav-wrapper">
+    <div class="container">
+      <%= link_to "OurNaropa", main_app.root_path, :class => "brand-logo" %>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="<%= params[:controller].start_with?("ournaropa_library") ? "active" : "" %>"><%= link_to "Library", main_app.library_path %></li>
+        <li class="<%= params[:controller].start_with?("ournaropa_calendar") ? "active" : "" %>"><%= link_to "Calendar", main_app.calendar_path %></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
 
 <%= yield %>
 

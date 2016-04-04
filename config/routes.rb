@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   
   #
-  mount OurnaropaLibrary::Engine, at: "/library", as: :library_search
+  mount OurnaropaLibrary::Engine, at: "/library", as: :library
   
   mount OurnaropaCalendar::Engine, at: "/calendar", as: :calendar
   
