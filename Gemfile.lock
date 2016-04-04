@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/code4naropa/ournaropa-calendar.git
-  revision: d215b8905711ebb7719f9e8300e2d7d1d7d5d693
+  revision: eed94852e5df283467b8f0a239ef515f015b4cdf
   specs:
-    ournaropa_calendar (0.0.4)
+    ournaropa_calendar (1.0.0)
       chronic
       material_icons
       materialize-sass

@@ -14,3 +14,8 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( ournaropa_library/naropa-icon.jpeg )
 Rails.application.config.assets.precompile += %w( ournaropa_library/cu-icon.jpeg )
 Rails.application.config.assets.precompile += %w( ournaropa_library/bpl-icon.jpeg )
+
+Rails.application.config.assets.precompile += %w( ournaropa_calendar/fb-icon.png )
+Rails.application.config.assets.precompile += %w( ournaropa_calendar/twitter-icon.png )
+Rails.application.config.assets.precompile += %w( ournaropa_calendar/url-icon.png )
+Rails.application.config.assets.precompile += %w( ournaropa_calendar/gcal-icon.png )
