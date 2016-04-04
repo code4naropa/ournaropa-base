@@ -28,10 +28,10 @@ gem 'figaro'
 
 
   # Library Component
-gem 'ournaropa_library', :git => "git@github.com:code4naropa/ournaropa-library.git"
+gem 'ournaropa_library', :git => "https://github.com/code4naropa/ournaropa-library.git"
 
   # Calendar Component
-gem 'ournaropa_calendar', :git => "git@github.com:code4naropa/ournaropa-calendar.git"
+gem 'ournaropa_calendar', :git => "https://github.com/code4naropa/ournaropa-calendar.git"
 
 gem 'execjs'
 
