@@ -1,7 +1,7 @@
 # Change these
 server '107.170.237.241', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:code4naropa/ournaropa-base.git'
+set :repo_url,        'https://github.com/code4naropa/ournaropa-base.git'
 set :application,     'ournaropa'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
