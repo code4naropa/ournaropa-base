@@ -37,7 +37,10 @@ gem 'ournaropa_calendar', :git => "https://github.com/code4naropa/ournaropa-cale
 gem 'execjs'
 gem 'therubyracer' 
 
-# capitrano deployment
+# For Analytics
+gem 'piwik_analytics', '~> 1.0.1'
+
+# capistrano deployment
 group :development do
     gem 'capistrano',         require: false
     gem 'capistrano-rvm',     require: false
@@ -45,11 +48,6 @@ group :development do
     gem 'capistrano-bundler', require: false
     gem 'capistrano3-puma',   require: false
     gem 'capistrano-figaro-yml', '~> 1.0.2'
-      # Library Component
-    #gem 'ournaropa_library', path: "../ournaropa_library"
-
-    # Calendar Component
-    #gem 'ournaropa_calendar', path: "../ournaropa_calendar"
 end
 
 # run on puma
