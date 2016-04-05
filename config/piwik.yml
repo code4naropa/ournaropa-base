@@ -21,11 +21,11 @@ development:
     id_site: 1
     url: localhost
     disabled: true
-    use_async: false
+    use_async: true
 
 test:
   piwik:
     id_site: 1
     url: localhost
     disabled: true
-    use_async: false
+    use_async: true
