@@ -27,5 +27,12 @@
 
 <%= yield %>
 
+<% # if there is a notice, display for 5 seconds
+  if notice %>
+  <script type="text/javascript">
+    Materialize.toast("<%= escape_javascript notice %>", 5000) // 4000 is the duration of the toast
+  </script>
+<% end %>
+  
 </body>
 </html>
