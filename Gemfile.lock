@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/code4naropa/ournaropa-calendar.git
-  revision: 4c15e083e63c2dc01320902fb19c1291f668b2fe
+  revision: bef642cfd8b45d2fe1c2e5bb19e3450f42feab67
   specs:
-    ournaropa_calendar (1.1.2)
+    ournaropa_calendar (1.2.0)
       chronic
       material_icons
       materialize-sass
@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: https://github.com/code4naropa/ournaropa-library.git
-  revision: a9cd9c7eff38b20c1721f356bfe111a8b9598d3c
+  revision: 051635366b67221938a1eb2f37ad5039481103bd
   specs:
-    ournaropa_library (1.0.1)
+    ournaropa_library (1.1.1)
       material_icons
       materialize-sass
       nokogiri
