@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.4'
+gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -29,6 +29,9 @@ gem 'jquery-turbolinks'
 # for environment vars
 gem 'figaro'
 
+
+# Planner Component
+gem 'ournaropa_planner', :git => "https://github.com/code4naropa/ournaropa-planner.git"
 
   # Library Component
 gem 'ournaropa_library', :git => "https://github.com/code4naropa/ournaropa-library.git"

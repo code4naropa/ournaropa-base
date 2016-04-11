@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   
   mount OurnaropaCalendar::Engine, at: "/calendar", as: :calendar
   
+  mount OurnaropaPlanner::Engine, at: "/planner", as: :planner
+  
   root 'main#home'
   
   # You can have the root of your site routed with "root"

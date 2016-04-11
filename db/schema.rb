@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160405064506) do
+ActiveRecord::Schema.define(version: 20160411003148) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,5 +32,26 @@ ActiveRecord::Schema.define(version: 20160405064506) do
 
   add_index "ournaropa_calendar_events", ["end_time"], name: "index_ournaropa_calendar_events_on_end_time", using: :btree
   add_index "ournaropa_calendar_events", ["start_time"], name: "index_ournaropa_calendar_events_on_start_time", using: :btree
+
+  create_table "ournaropa_planner_courses", force: :cascade do |t|
+    t.string   "name"
+    t.string   "code"
+    t.string   "instructor"
+    t.text     "requirements"
+    t.text     "books"
+    t.text     "description"
+    t.text     "note"
+    t.text     "meeting_times"
+    t.float    "credits"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.integer  "enrollment_current"
+    t.integer  "enrollment_maximum"
+    t.integer  "enrollment_waitlist"
+    t.date     "start_date"
+    t.date     "end_date"
+  end
+
+  add_index "ournaropa_planner_courses", ["code"], name: "index_ournaropa_planner_courses_on_code", using: :btree
 
 end
