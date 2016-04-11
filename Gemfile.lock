@@ -20,9 +20,9 @@ GIT
 
 GIT
   remote: https://github.com/code4naropa/ournaropa-planner.git
-  revision: 29b83b05d316c61afe25e890508aed9726e375da
+  revision: bc91c5f0f980d09714423f4912ac04d65abc18b2
   specs:
-    ournaropa_planner (0.1.0)
+    ournaropa_planner (0.2.0)
       capybara
       jquery-rails
       material_icons
