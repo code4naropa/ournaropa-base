@@ -20,6 +20,7 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li class="<%= params[:controller].start_with?("ournaropa_library") ? "active" : "" %>"><%= link_to "Library", main_app.library_path %></li>
         <li class="<%= params[:controller].start_with?("ournaropa_calendar") ? "active" : "" %>"><%= link_to "Calendar", main_app.calendar_path %></li>
+        <li class="<%= params[:controller].start_with?("ournaropa_planner") ? "active" : "" %>"><%= link_to "Courses", main_app.planner_path %></li>
       </ul>
     </div>
   </div>
