@@ -39,6 +39,9 @@ gem 'ournaropa_library', :git => "https://github.com/code4naropa/ournaropa-libra
   # Calendar Component
 gem 'ournaropa_calendar', :git => "https://github.com/code4naropa/ournaropa-calendar.git"
 
+  # Calendar Component
+gem 'ournaropa_forum', :git => "https://github.com/code4naropa/ournaropa-forum.git"
+
 # Compilation gems
 gem 'execjs'
 gem 'therubyracer' 

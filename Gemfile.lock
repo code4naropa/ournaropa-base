@@ -9,6 +9,19 @@ GIT
       rails (~> 4.2.4)
 
 GIT
+  remote: https://github.com/code4naropa/ournaropa-forum.git
+  revision: 109d4cf89c529c42b3e5020974d85e9b6e4238ab
+  specs:
+    ournaropa_forum (0.0.3)
+      jquery-rails
+      jquery-turbolinks
+      material_icons
+      materialize-sass
+      rails (~> 4.2.6)
+      sass-rails
+      turbolinks
+
+GIT
   remote: https://github.com/code4naropa/ournaropa-library.git
   revision: 051635366b67221938a1eb2f37ad5039481103bd
   specs:
@@ -149,7 +162,7 @@ GEM
       railties (>= 3.1.0)
       turbolinks
     json (1.8.3)
-    libv8 (3.16.14.13)
+    libv8 (3.16.14.15)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
@@ -281,6 +294,7 @@ DEPENDENCIES
   material_icons
   materialize-sass
   ournaropa_calendar!
+  ournaropa_forum!
   ournaropa_library!
   ournaropa_planner!
   pg

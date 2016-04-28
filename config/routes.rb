@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   
   mount OurnaropaPlanner::Engine, at: "/planner", as: :planner
   
+  mount OurnaropaForum::Engine, at: "/forum", as: :forum
+  
   root 'main#home'
   
   # You can have the root of your site routed with "root"
