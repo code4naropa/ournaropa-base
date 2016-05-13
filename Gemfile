@@ -29,6 +29,8 @@ gem 'jquery-turbolinks'
 # for environment vars
 gem 'figaro'
 
+gem "paperclip", "~> 5.0.0.beta1"
+
 
 # Planner Component
 gem 'ournaropa_planner', :git => "https://github.com/code4naropa/ournaropa-planner.git"
