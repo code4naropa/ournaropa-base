@@ -49,9 +49,10 @@ Rails.application.configure do
   # when problems arise.
   config.log_level = :debug
   
+  config.action_mailer.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
-    :user_name => 'your_sendgrid_username',
-    :password => 'your_sendgrid_password',
+    :user_name => ENV["SENDGRID_SMTP_USERNAME"],
+    :password => ENV["SENDGRID_SMTP_PASSWORD"],
     :domain => 'yourdomain.com',
     :address => 'smtp.sendgrid.net',
     :port => 587,
