@@ -20,5 +20,4 @@ Rails.application.config.assets.precompile += %w( ournaropa_calendar/twitter-ico
 Rails.application.config.assets.precompile += %w( ournaropa_calendar/url-icon.png )
 Rails.application.config.assets.precompile += %w( ournaropa_calendar/gcal-icon.png )
 
-Rails.application.config.assets.precompile += %w( ournaropa_forum/finn.JPG )
-Rails.application.config.assets.precompile += %w( ournaropa_forum/sara.JPG )
+Rails.application.config.assets.precompile += %w( ournaropa_forum/* )
