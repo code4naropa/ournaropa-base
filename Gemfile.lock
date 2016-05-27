@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: https://github.com/code4naropa/ournaropa-forum.git
-  revision: 574af4f1cbcad2dec7d0e5a204093223accb8925
+  revision: 7665b8249997e4b3c1043de34938c84fd6629739
   specs:
-    ournaropa_forum (1.0.2)
+    ournaropa_forum (1.1.0)
       bcrypt
       friendly_id (~> 5.1.0)
       jquery-rails

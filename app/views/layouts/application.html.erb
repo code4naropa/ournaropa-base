@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>OurNaropa - Elevating Collaboration and Empowering Community</title>
+  <title>The Cushion - Elevating Collaboration and Empowering Community</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -14,9 +14,9 @@
 <body>
 
  <nav>
-  <div class="nav-wrapper">
+  <div class="nav-wrapper red lighten-2">
     <div class="container">
-      <%= link_to "OurNaropa", main_app.root_path, :class => "brand-logo" %>
+      <%= link_to "The Cushion", main_app.root_path, :class => "brand-logo" %>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li class="<%= params[:controller].start_with?("ournaropa_library") ? "active" : "" %>"><%= link_to "Library", main_app.library_path %></li>
         <li class="<%= params[:controller].start_with?("ournaropa_calendar") ? "active" : "" %>"><%= link_to "Calendar", main_app.calendar_path %></li>
@@ -32,7 +32,7 @@
     <div class="row">
       <div class="col s12">
         <div class="divider"></div>  
-        <p class="center-align">Disclaimer: This is a website run by Naropa students. OurNaropa and the applications offered on this website are in no way officially affiliated with or endorsed by Naropa University. You can find the official Naropa website at <%= link_to "www.naropa.edu", "https://www.naropa.edu/" %>. </p>
+        <p class="center-align">Disclaimer: This is a website run by Naropa students. The Cushion and the applications offered on this website are in no way officially affiliated with or endorsed by Naropa University. You can find the official Naropa website at <%= link_to "www.naropa.edu", "https://www.naropa.edu/" %>. </p>
       </div>
     </div>
   </div>

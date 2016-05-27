@@ -50,7 +50,7 @@ Rails.application.configure do
   config.log_level = :debug
   
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { :host => 'www.ournaropa.org', :protocol => 'http' }
+  config.action_mailer.default_url_options = { :host => 'www.thecushion.org', :protocol => 'http' }
   ActionMailer::Base.smtp_settings = {
     :user_name => ENV["SENDGRID_SMTP_USERNAME"],
     :password => ENV["SENDGRID_SMTP_PASSWORD"],
