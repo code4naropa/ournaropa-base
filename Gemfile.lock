@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: https://github.com/code4naropa/ournaropa-forum.git
-  revision: 32b72a92800dd0693b051738eb11d254f8d1c5fd
+  revision: 30b9f4ec90b7921d0a8902bb58b455d65dba4ed4
   specs:
-    ournaropa_forum (1.1.2)
+    ournaropa_forum (1.2.0)
       bcrypt
       friendly_id (~> 5.1.0)
       jquery-rails
@@ -281,7 +281,7 @@ GEM
       ref
     thor (0.19.1)
     thread_safe (0.3.5)
-    tilt (2.0.4)
+    tilt (2.0.5)
     turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
