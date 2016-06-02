@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: https://github.com/code4naropa/ournaropa-forum.git
-  revision: 7665b8249997e4b3c1043de34938c84fd6629739
+  revision: 6cc3b404ad693a78c0a69077bb0e5680463f4b62
   specs:
-    ournaropa_forum (1.1.0)
+    ournaropa_forum (1.1.1)
       bcrypt
       friendly_id (~> 5.1.0)
       jquery-rails
@@ -95,7 +95,7 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
-    byebug (9.0.4)
+    byebug (9.0.5)
     capistrano (3.5.0)
       airbrussh (>= 1.0.0)
       capistrano-harrow
@@ -164,7 +164,7 @@ GEM
       activesupport (>= 4.1.0)
     hashie (3.4.4)
     i18n (0.7.0)
-    jbuilder (2.4.1)
+    jbuilder (2.5.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
     jquery-rails (4.1.1)

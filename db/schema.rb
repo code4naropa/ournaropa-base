@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160526151630) do
+ActiveRecord::Schema.define(version: 20160602051302) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -75,6 +75,7 @@ ActiveRecord::Schema.define(version: 20160526151630) do
     t.boolean  "has_signed_up", default: false, null: false
     t.datetime "created_at",                    null: false
     t.datetime "updated_at",                    null: false
+    t.boolean  "is_developer",  default: false, null: false
   end
 
   add_index "ournaropa_forum_permitted_users", ["email"], name: "index_ournaropa_forum_permitted_users_on_email", unique: true, using: :btree
@@ -122,6 +123,7 @@ ActiveRecord::Schema.define(version: 20160526151630) do
     t.boolean  "is_receiving_inactivity_email", default: true,  null: false
     t.datetime "inactivity_email_sent_at"
     t.datetime "seen_at"
+    t.boolean  "is_developer",                  default: false, null: false
   end
 
   add_index "ournaropa_forum_users", ["email"], name: "index_ournaropa_forum_users_on_email", unique: true, using: :btree
