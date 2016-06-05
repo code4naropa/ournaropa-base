@@ -12,7 +12,7 @@
 production:
   piwik:
     id_site: 5
-    url: piwik.ournaropa.org
+    url: piwik.thecushion.org
     use_async: true
     disabled: false
 
