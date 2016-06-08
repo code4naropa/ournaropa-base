@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160602051302) do
+ActiveRecord::Schema.define(version: 20160608143004) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,27 @@ ActiveRecord::Schema.define(version: 20160602051302) do
 
   add_index "ournaropa_calendar_events", ["end_time"], name: "index_ournaropa_calendar_events_on_end_time", using: :btree
   add_index "ournaropa_calendar_events", ["start_time"], name: "index_ournaropa_calendar_events_on_start_time", using: :btree
+
+  create_table "ournaropa_decisions_decisions", force: :cascade do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "author"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "ournaropa_decisions_feedbacks", force: :cascade do |t|
+    t.text     "content"
+    t.string   "email"
+    t.boolean  "wants_to_stay_informed"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
+  create_table "ournaropa_decisions_reasons", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "ournaropa_forum_conversations", id: :uuid, default: "uuid_generate_v4()", force: :cascade do |t|
     t.string   "title",      null: false

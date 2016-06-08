@@ -9,8 +9,21 @@ GIT
       rails (~> 4.2.4)
 
 GIT
+  remote: https://github.com/code4naropa/ournaropa-democracy.git
+  revision: b458a34ddbfb61919fce6e269b2f0bc2c890a0bd
+  specs:
+    ournaropa_decisions (0.0.2)
+      jquery-rails
+      jquery-turbolinks
+      material_icons
+      materialize-sass
+      rails (~> 4.2.6)
+      sass-rails
+      turbolinks
+
+GIT
   remote: https://github.com/code4naropa/ournaropa-forum.git
-  revision: 66ee82e330512fe0c125e23d3fee19205a7920e7
+  revision: af9618de72d45022943a7bf5d21f5080787e4725
   specs:
     ournaropa_forum (1.2.1)
       bcrypt
@@ -188,15 +201,16 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mimemagic (0.3.1)
-    mini_portile2 (2.0.0)
+    mini_portile2 (2.1.0)
     minitest (5.9.0)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.1.1)
-    nokogiri (1.6.7.2)
-      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
     paperclip (5.0.0.beta2)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
@@ -208,6 +222,7 @@ GEM
       actionpack
       activesupport
       rails (>= 3.0.0)
+    pkg-config (1.1.7)
     poltergeist (1.9.0)
       capybara (~> 2.1)
       cliver (~> 0.3.1)
@@ -320,6 +335,7 @@ DEPENDENCIES
   material_icons
   materialize-sass
   ournaropa_calendar!
+  ournaropa_decisions!
   ournaropa_forum!
   ournaropa_library!
   ournaropa_planner!

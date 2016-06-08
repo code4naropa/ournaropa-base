@@ -44,9 +44,12 @@ gem 'ournaropa_calendar', :git => "https://github.com/code4naropa/ournaropa-cale
   # Calendar Component
 gem 'ournaropa_forum', :git => "https://github.com/code4naropa/ournaropa-forum.git"
 
+# Democracy Component
+gem 'ournaropa_decisions', :git => "https://github.com/code4naropa/ournaropa-democracy.git"
+
 # Compilation gems
 gem 'execjs'
-gem 'therubyracer' 
+gem 'therubyracer'
 
 # For Analytics
 gem 'piwik_analytics', '~> 1.0.1'
@@ -90,4 +93,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-

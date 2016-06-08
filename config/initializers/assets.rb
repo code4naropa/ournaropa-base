@@ -21,3 +21,5 @@ Rails.application.config.assets.precompile += %w( ournaropa_calendar/url-icon.pn
 Rails.application.config.assets.precompile += %w( ournaropa_calendar/gcal-icon.png )
 
 Rails.application.config.assets.precompile += %w( ournaropa_forum/* )
+
+Rails.application.config.assets.precompile += %w( ournaropa_decisions/* )

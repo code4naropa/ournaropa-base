@@ -48,13 +48,13 @@ Rails.application.configure do
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
   config.log_level = :debug
-  
+
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { :host => 'www.thecushion.org', :protocol => 'https' }
   ActionMailer::Base.smtp_settings = {
     :user_name => ENV["SENDGRID_SMTP_USERNAME"],
     :password => ENV["SENDGRID_SMTP_PASSWORD"],
-    :domain => 'yourdomain.com',
+    :domain => 'thecushion.org',
     :address => 'smtp.sendgrid.net',
     :port => 587,
     :authentication => :plain,

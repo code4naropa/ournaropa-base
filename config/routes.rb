@@ -2,18 +2,20 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  
+
   #
   mount OurnaropaLibrary::Engine, at: "/library", as: :library
-  
+
   mount OurnaropaCalendar::Engine, at: "/calendar", as: :calendar
-  
+
   mount OurnaropaPlanner::Engine, at: "/planner", as: :planner
-  
+
   mount OurnaropaForum::Engine, at: "/forum", as: :forum
-  
+
+  mount OurnaropaDecisions::Engine, at: "/democracy", as: :democracy
+
   root 'main#home'
-  
+
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
