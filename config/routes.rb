@@ -4,17 +4,17 @@ Rails.application.routes.draw do
 
 
   #
-  mount OurnaropaLibrary::Engine, at: "/library", as: :library
+  #mount OurnaropaLibrary::Engine, at: "/library", as: :library
 
-  mount OurnaropaCalendar::Engine, at: "/calendar", as: :calendar
+  #mount OurnaropaCalendar::Engine, at: "/calendar", as: :calendar
 
-  mount OurnaropaPlanner::Engine, at: "/planner", as: :planner
+  #mount OurnaropaPlanner::Engine, at: "/planner", as: :planner
 
   mount OurnaropaForum::Engine, at: "/forum", as: :forum
 
   mount OurnaropaDecisions::Engine, at: "/democracy", as: :democracy
 
-  root 'main#home'
+  root 'main#goodbye'
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
